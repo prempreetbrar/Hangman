@@ -1,13 +1,7 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/488a08fe-d05b-46e9-baa1-9533867671d5/d1r050o-85109555-0299-4038-b73d-f2bc7d2cc155.jpg/v1/fill/w_600,h_784,q_75,strp/crumpled_looseleaf_paper_by_cliffski_d1r050o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg0IiwicGF0aCI6IlwvZlwvNDg4YTA4ZmUtZDA1Yi00NmU5LWJhYTEtOTUzMzg2NzY3MWQ1XC9kMXIwNTBvLTg1MTA5NTU1LTAyOTktNDAzOC1iNzNkLWYyYmM3ZDJjYzE1NS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.D5HNj5Blxr0oDupTkMPNdb49K3NDDFILyJ_bizOnArw");
+  background-size: cover;
+  font-family: "Permanent Marker";
 }
