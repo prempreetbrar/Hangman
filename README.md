@@ -22,16 +22,41 @@ A 1-player game of Hangman that shows visuals when the user guesses incorrectly;
 
 5. Check if you have node installed by running ```node --version``` in the terminal. If not, open the .msi installation package and click "repair." Follow the steps.
 
-6. Right click on the *Hangman-master* folder and select *copy as path*. Open up a terminal and write
+6. Click on the green button on the top right that says "Code". Click download ZIP, unzip the file, right click on the *Hangman-master* folder and select *copy as path*. Open up a terminal and write
 
 ```
-cd <putThePathYouCopiedHereUsingControlV (Without the angle brackets) >
+cd <putThePathYouCopiedHereUsingControlV (without the angle brackets)>
 npm install
 npm start
 ```
 This will open up the Hangman game using your computer as a host in your default browser. (It may take up to a minute to load when starting the app up initially).
 
 &nbsp;
+    
+### If you are on MacOS and want to start up the project on your local machine:
+    
+1. Ensure you have **Node.js 16.13.0 and npm (any version)** or above installed by writing ```node --version``` and ```npm --version``` in the terminal; if either Node or npm are missing, write ```brew --version``` in the terminal. If brew is not missing, continue to step 2. If brew is missing, first install it by writing 
+    ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+in the terminal. 
+2. In the terminal, write
+    
+    ```
+    brew update
+    brew install node
+    ```
+
+3. Check if you have node and npm installed by running ```node --version``` and ```npm --version``` in the terminal. If not, repeat step 2.
+    
+4. Click on the green button on the top right that says "Code". Click download ZIP, right click on the *Hangman-master* folder, click *Get Info*, copy the path (the text beside *Where*): <img width="257" alt="image" src="https://user-images.githubusercontent.com/89614923/177058572-a593db45-1650-4873-9379-f05e1f95bc1a.png">
+    
+5. Open up a terminal and write
+
+```
+cd <putThePathYouCopiedHereUsingControlV (without the angle brackets)>
+npm install
+npm start
+```
+This will open up the Hangman game using your computer as a host in your default browser. (It may take up to a minute to load when starting the app up initially).
 
 ## Limitations/Design Choices
 
