@@ -8,9 +8,11 @@ A 1-player game of Hangman that shows visuals when the user guesses incorrectly;
 ### If you are on Windows and want to start up the project on your local machine:
 
 1. Ensure you have **Node.js 16.13.0 and npm (any version)** or above installed by writing ```node --version``` and ```npm --version``` in the terminal; if either Node or npm are missing, [install Node.js and npm](https://nodejs.org/en/download/) (ensure you click *Windows Installer* on the LTS tab for your installation), open the .msi file and follow the steps.
-
+<ul>
   <li><u>There will be a custom setup tab that says you can "click the icons in the tree" to change the installation. DO NOT click any of the icons; simply click next.</u></li>
   <li>There will be a screen that says "Tools for Native Modules." **Ensure you check the box** that says <u>Automatically install the necessary tools.<u></li>
+</ul>
+  
   
 2. A terminal called "Install Additional Tools for Node.js" will pop up, prompting you to ```Press any key to continue . . . ```. Continue pressing keys until you are prompted to open Powershell.
 
