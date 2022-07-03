@@ -10,7 +10,7 @@ A 1-player game of Hangman that shows visuals when the user guesses incorrectly;
 1. Ensure you have **Node.js 16.13.0 and npm (any version)** or above installed by writing ```node --version``` and ```npm --version``` in the terminal; if either Node or npm are missing, [install Node.js and npm](https://nodejs.org/en/download/) (ensure you click *Windows Installer* on the LTS tab for your installation), open the .msi file and follow the steps.
 <ul>
   <li><u>There will be a custom setup tab that says you can "click the icons in the tree" to change the installation. DO NOT click any of the icons; simply click next.</u></li>
-  <li>There will be a screen that says "Tools for Native Modules." **Ensure you check the box** that says <u>Automatically install the necessary tools.<u></li>
+  <li>There will be a screen that says "Tools for Native Modules." Ensure you check the box that says <u>"Automatically install the necessary tools."<u></li>
 </ul>
   
   
