@@ -22,7 +22,7 @@ A 1-player game of Hangman that shows visuals when the user guesses incorrectly;
 
 5. Check if you have node installed by running ```node --version``` in the terminal. If not, open the .msi installation package and click "repair." Follow the steps.
 
-6. Click on the green button on the top right that says "Code". Click download ZIP, unzip the file, right click on the *Hangman-master* folder and select *copy as path*. Open up a terminal and write
+6. Click on the green button on the top right that says "Code". Click download ZIP, unzip the file, right click on the *Hangman-main* folder and select *copy as path*. Open up a terminal and write
 
 ```
 cd <putThePathYouCopiedHereUsingControlV (without the angle brackets)>
@@ -47,7 +47,8 @@ in the terminal.
 
 3. Check if you have node and npm installed by running ```node --version``` and ```npm --version``` in the terminal. If not, repeat step 2.
     
-4. Click on the green button on the top right that says "Code". Click download ZIP, right click on the *Hangman-master* folder, click *Get Info*, copy the path (the text beside *Where*): <img width="257" alt="image" src="https://user-images.githubusercontent.com/89614923/177058572-a593db45-1650-4873-9379-f05e1f95bc1a.png">
+4. Click on the green button on the top right that says "Code". Click download ZIP, right click on the *Hangman-main* folder, click *Get Info*, copy the path (the text beside *Where*): 
+![image](https://user-images.githubusercontent.com/89614923/177059031-e221486f-dfcd-4d1a-b864-e04de2f3e93d.png)
     
 5. Open up a terminal and write
 
