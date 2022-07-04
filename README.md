@@ -58,7 +58,26 @@ npm install
 npm start
 ```
 This will open up the Hangman game using your computer as a host in your default browser. (It may take up to a minute to load when starting the app up initially).
+    
+### If you are on Linux and want to start up the project on your local machine:
+    
+1. Open up a terminal and write ```sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev``` if you have a **Ubuntu** or **Debian**  based Linux distribution; write ```sudo yum groupinstall 'Development Tools' && sudo yum install curl git m4 ruby texinfo bzip2-devel curl-devel expat-devel ncurses-devel zlib-devel``` if you have a **Fedora** based Linux distribution. It will prompt you to type in Y/N, make sure you type in Y (yes to the installation).
 
+2. Open up a terminal (or use the same one) and write ```homebrew --version```. If you are missing homebrew, write ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"``` to install it (if you have homebrew skip to step 3).
+    
+3. Open up a terminal (or use the same one) and write ```vim ~/.bashrc```. Add the following three lines of code to the file:
+    
+    ```
+    export PATH="$HOME/.linuxbrew/bin:$PATH"
+    export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+    export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+    ```
+    
+4. Open up a terminal (or use the same one) and write ```brew install node```. Wait for the installation to finish.
+
+5. Open up a terminal (or use the same one) and write ```node --version``` and ```npm --version```. If either node or npm are missing, repeat steps 1-4.
+    
+    
 ## Limitations/Design Choices
 
 - The
