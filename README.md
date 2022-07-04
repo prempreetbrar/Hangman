@@ -92,4 +92,9 @@ This will open up the Hangman game using your computer as a host in your default
     
 ## Limitations/Design Choices
 
-- The
+- The set of words is hard-coded; I'd like to update this to send a request to a dictionary API and drastically increase the variety of words.
+- Functional components and React hooks are used, however, in the process of making this I ensured I had a deep understanding of class components (in case I am ever working with an older codebase).
+- I rarely use arrow functions; I want to be as explicit as I can when possible, and only use arrow functions for callbacks. In a class component, I would use an arrow function so I don't have to explicitly bind ```this```, but this is not a concern in a functional component.
+- The app itself is a single component; I'd like to update this to make the buttons their own separate component, one that takes in "activated/deactivated" props from the parent and renders itself accordingly.
+- At the top of the Hangman function, there is duplication of code; the code to set the initial state and restart the game is nearly identical. I looked at a few workarounds using the useReducer hook but ultimately decided to stay with my current code because of its simplicity. As a result, I hope to use useReducer extensively in a future project.
+- The app is single player; you can't play with your friends, and there isn't a topic or category to which a word pertains.
