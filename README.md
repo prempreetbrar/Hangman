@@ -1,7 +1,9 @@
 # Hangman
 A 1-player game of Hangman that shows visuals when the user guesses incorrectly; the game can be replayed as many times as the user desires.
 
-## **Click [*here*](https://prempreetbrar.github.io/Hangman/) to play!**
+## **Click [*here*](https://prempreetbrar.github.io/Hangman/) to play!** Or, watch a quick gif of me playing below:
+
+![](HangmanDemo.gif)
 
 &nbsp;
 
