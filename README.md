@@ -3,7 +3,7 @@ A 1-player game of Hangman that shows visuals when the user guesses incorrectly;
 
 ## **Click [*here*](https://prempreetbrar.github.io/Hangman/) to play!** Or, watch a quick gif of me playing below:
 
-![]
+![](HangmanDemo.gif)
 
 &nbsp;
 
