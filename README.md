@@ -1,5 +1,5 @@
 # Hangman
-A 1-player game of Hangman that shows visuals when the user guesses incorrectly; the game can be replayed as many times as the user desires.
+A 1-player game of Hangman made using React.js and Material-UI that shows visuals when the user guesses incorrectly; the game can be replayed as many times as the user desires.
 
 ## **Click [*here*](https://prempreetbrar.github.io/Hangman/) to play!** Or, watch a quick gif of me playing below:
 
@@ -100,3 +100,4 @@ This will open up the Hangman game using your computer as a host in your default
 - The app itself is a single component; I'd like to update this to make the buttons their own separate component, one that takes in "activated/deactivated" props from the parent and renders itself accordingly.
 - At the top of the Hangman function, there is duplication of code; the code to set the initial state and restart the game is nearly identical. I looked at a few workarounds using the useReducer hook but ultimately decided to stay with my current code because of its simplicity. As a result, I hope to use useReducer extensively in a future project.
 - The app is single player; you can't play with your friends, and there isn't a topic or category to which a word pertains.
+- I felt I had strong skills in Vanilla JavaScript, which is why I chose to use React.
