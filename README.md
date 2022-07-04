@@ -59,6 +59,8 @@ npm start
 ```
 This will open up the Hangman game using your computer as a host in your default browser. (It may take up to a minute to load when starting the app up initially).
     
+&nbsp;    
+
 ### If you are on Linux and want to start up the project on your local machine:
     
 1. Open up a terminal and write ```sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev``` if you have a **Ubuntu** or **Debian**  based Linux distribution; write ```sudo yum groupinstall 'Development Tools' && sudo yum install curl git m4 ruby texinfo bzip2-devel curl-devel expat-devel ncurses-devel zlib-devel``` if you have a **Fedora** based Linux distribution. It will prompt you to type in Y/N, make sure you type in Y (yes to the installation).
@@ -76,6 +78,16 @@ This will open up the Hangman game using your computer as a host in your default
 4. Open up a terminal (or use the same one) and write ```brew install node```. Wait for the installation to finish.
 
 5. Open up a terminal (or use the same one) and write ```node --version``` and ```npm --version```. If either node or npm are missing, repeat steps 1-4.
+
+6. Click on the green button on the top right that says "Code". Click download ZIP, and then unzip the *Hangman-main* folder. Open up a terminal (or use the same one) and write
+    
+    ```
+    cd ~/<Your Username>/Downloads/Hangman-master
+    npm install
+    npm start
+    ```
+
+This will open up the Hangman game using your computer as a host in your default browser. (It may take up to a minute to load when starting the app up initially).
     
     
 ## Limitations/Design Choices
